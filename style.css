@@ -43,11 +43,14 @@
   border: 1px solid gray;
   cursor: pointer;
 }
+.filter {
+  display: flex;
+}
 .filter-btn {
   margin: 10px;
   cursor: pointer;
 }
-.shimmer-container{
+.shimmer-container {
   display: flex;
 }
 .shimmer-card {
@@ -55,4 +58,8 @@
   width: 200px;
   height: 400px;
   background-color: gary;
+}
+.login {
+  padding: 0 20px;
+  cursor: pointer;
 }

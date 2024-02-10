@@ -34,8 +34,8 @@ const Body = () => {
         </button>
       </div>
       <div className="res-container">
-        {listofRestaurant.map((restaurant) => (
-          <RestaurantCard key={restaurant.data.id} resData={restaurant} />
+        {listofRestaurant.map((restaurants) => (
+          <RestaurantCard key={restaurants.data.id} resData={restaurants} />
         ))}
         ,
       </div>

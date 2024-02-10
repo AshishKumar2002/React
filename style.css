@@ -31,7 +31,6 @@
 .res-card {
   margin: 5px;
   width: 200px;
-  height: 250px;
   /* border: 1px solid black; */
 }
 .search {
@@ -42,5 +41,9 @@
 }
 .res-card:hover {
   border: 1px solid gray;
+  cursor: pointer;
+}
+.filter-btn {
+  margin: 10px;
   cursor: pointer;
 }

@@ -35,3 +35,11 @@ const HeadingComponent = () =>(
     <h1 className="heading">Namaste React Functional component</h1>
   </div>
 );
+
+#Two type of Export/Import
+  -Default Export/Import
+     =>export default component
+     =>import component from "path"
+  -Named Export/Import
+    =>export const component
+    =>import {component} from "path"

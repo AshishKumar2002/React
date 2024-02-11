@@ -57,3 +57,12 @@ const HeadingComponent = () =>(
   //     json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurant
   //   );
   // };
+
+  <Outlet/>
+   ->An <Outlet> should be used in parent route elements to render their child route elements. This allows nested UI to show up when child routes are rendered. If the parent route matched exactly, it will render a child index route or nothing if there is no index route.
+
+<Link>
+  -A <Link> is an element that lets the user navigate to another page by clicking or tapping on it. In react-router-dom, a <Link> renders an accessible <a> element with a real href that points to the resource it's linking to. This means that things like right-clicking a <Link> work as you'd expect. You can use <Link reloadDocument> to skip client side routing and let the browser handle the transition normally (as if it were an <a href>).
+# 2-types of Routing in web app
+  -> client side routing-all the component are loaded already
+  -> server side routing-make a network call 
